@@ -25,18 +25,19 @@ export const App = () => {
         <DraggableElement color="green" />
         <DraggableElement color="yellow" />
       </div>
-      <div className="h-12 w-96 ml-auto text-right">
-        <p>by @you-5805</p>
-        <p>
-          <a
-            href="https://github.com/you-5805/drag-and-drop-DOM-elements"
-            className="text-blue-400 hover:text-blue-600 underline whitespace-nowrap text-sm"
-            rel="noreferrer"
-            target="_blank"
-          >
-            https://github.com/you-5805/drag-and-drop-DOM-elements
-          </a>
-        </p>
+      <div className="w-36 ml-auto h-12 mt-auto flex items-center justify-between">
+        <a
+          href="https://github.com/you-5805/drag-and-drop-DOM-elements/blob/main/README.md"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+            alt="GitHubリポジトリ"
+            className="w-12"
+          />
+        </a>
+        <p className="whitespace-nowrap">by @you-5805</p>
       </div>
     </div>
   );
