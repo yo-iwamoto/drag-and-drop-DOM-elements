@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react'
+import './App.css'
 
-function App() {
+export const App = () => {
+  const defaultMousePosition = [0, 0]
+  const [mousePosition, setMousePosition] = useState(defaultMousePosition)
+  const logMousePosition = (e) => {
+    setMousePosition([e.clientX, e.clientY])
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container" onClick={logMousePosition}>
+      <h1>drag and drop</h1>
+      <p>Click Anywhere in this Container to Log Current Mouse Position</p>
+      <p>X : {mousePosition[0]}, Y: {mousePosition[1]}</p>
     </div>
   );
 }
-
-export default App;
