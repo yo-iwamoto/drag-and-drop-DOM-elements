@@ -20,7 +20,7 @@ export const App = () => {
   return (
     <div className="w-4/5 h-screen mx-auto mt-12 p-12 border text-center">
       <h1 className="text-3xl font-bold mb-8">drag and drop</h1>
-      <div className="container h-40 border">
+      <div className="container w-12 h-40 mx-auto">
         <DraggableElement color="red" />
         <DraggableElement color="green" />
         <DraggableElement color="yellow" />
