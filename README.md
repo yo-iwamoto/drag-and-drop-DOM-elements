@@ -6,7 +6,10 @@ init repository at 2021.4.5
 1. Get Mouse Position
 2. Drag Elements
 3. Drop Elements and Remember Position Temporary with **Hooks**
-4. Save Elements Position Permanently with **Redux** & **MySQL**
+4. Insert Texts inside the Elements
+5. Save Elements Position Permanently with **Redux** & **MySQL**
+6. Create & Delete Elements
+7. Transform Scale
 
 ### Get Mouse Position
 DEMO：
@@ -18,4 +21,8 @@ DEMO：
 
 ### Save Position Temporary
 
+### Insert Texts inside the Elements
+
 ### Save Position Permanently
+
+### Create & Delete Elements
