@@ -1,0 +1,22 @@
+.draggable {
+  @apply z-10 w-12 h-12 cursor-pointer absolute;
+}
+
+.red {
+  @extend .draggable;
+  @apply bg-red-300;
+}
+
+.yellow {
+  @extend .draggable;
+  @apply bg-yellow-300;
+}
+
+.green {
+  @extend .draggable;
+  @apply bg-green-300;
+}
+
+.drag {
+  @apply z-20 shadow-lg;
+}
