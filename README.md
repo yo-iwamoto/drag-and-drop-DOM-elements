@@ -1,6 +1,8 @@
 # Create an App which Drag & Drop DOM Elements
 To learn React, create a simple WEB-based graphical workspace like Strap and Whimsical.  
 
+## 実現したい操作がDOMではなくcanvasを使った方がよいと判断したので，開発をストップしました．
+
 init repository at 2021.4.5
 
 1. Get Mouse Position
